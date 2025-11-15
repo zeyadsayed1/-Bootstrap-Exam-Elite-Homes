@@ -1,9 +1,3 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
 
 @font-face {
   font-family: 'Exo';
@@ -267,8 +261,8 @@ font-size: .875rem !important;
 /* end Nav */
 /* Start hero section */
 #Home{
-  background-image:   -webkit-gradient(linear, left top, right top, from(rgba(77,23,154,0.8)), to(rgba(89,22,139,0.8))) , url('../Images/hero-bg-img.png');
   background-image:   -o-linear-gradient(left, rgba(77,23,154,0.8), rgba(89,22,139,0.8)) , url('../Images/hero-bg-img.png');
+  background-image:   -webkit-gradient(linear, left top, right top, from(rgba(77,23,154,0.8)), to(rgba(89,22,139,0.8))) , url('../Images/hero-bg-img.png');
   background-image:   linear-gradient(to right, rgba(77,23,154,0.8), rgba(89,22,139,0.8)) , url('../Images/hero-bg-img.png');
   background-position: center;
   background-size: cover;
@@ -312,21 +306,21 @@ font-size: .875rem !important;
 .premium-divider .line {
   width: 5rem;
   height: 2px;
-  background: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(#7c3aed), to(#9d10f9));
   background: -o-linear-gradient(left, transparent, #7c3aed, #9d10f9);
+  background: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(#7c3aed), to(#9d10f9));
   background: linear-gradient(to right, transparent, #7c3aed, #9d10f9);
 }
 
 .premium-divider .line:last-child {
-  background: -webkit-gradient(linear, right top, left top, from(transparent), color-stop(#9d10f9), to(#7c3aed));
   background: -o-linear-gradient(right, transparent, #9d10f9, #7c3aed);
+  background: -webkit-gradient(linear, right top, left top, from(transparent), color-stop(#9d10f9), to(#7c3aed));
   background: linear-gradient(to left, transparent, #9d10f9, #7c3aed);
 }
 
 .premium-divider .label {
   padding: .5rem 1.25rem;
-  background: -webkit-gradient(linear, left top, right top, from(#f5f3ff), to(#ede9fe));
   background: -o-linear-gradient(left, #f5f3ff, #ede9fe);
+  background: -webkit-gradient(linear, left top, right top, from(#f5f3ff), to(#ede9fe));
   background: linear-gradient(to right, #f5f3ff, #ede9fe);
   border: 2px solid #c4b5fd;
   border-radius: 50rem;
@@ -509,21 +503,36 @@ background: -o-linear-gradient(218deg, rgba(89, 23, 140, 1) 100%, rgba(77, 23, 1
 background: linear-gradient(232deg, rgba(89, 23, 140, 1) 100%, rgba(77, 23, 154, 1) 5%);
 }
 #Testimonials .premium-divider .line:last-child {
-    background-image: -webkit-gradient(linear, right top, left top, from(transparent), color-stop(#e879f9), to(#f59e0b));
     background-image: -o-linear-gradient(right, transparent, #e879f9, #f59e0b);
+    background-image: -webkit-gradient(linear, right top, left top, from(transparent), color-stop(#e879f9), to(#f59e0b));
     background-image: linear-gradient(to left, transparent, #e879f9, #f59e0b);
 }
 .premium-divider .line {
     width: 5rem;
     height: 2px;
-     background-image: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(#e879f9), to(#f59e0b));
      background-image: -o-linear-gradient(left, transparent, #e879f9, #f59e0b);
+     background-image: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(#e879f9), to(#f59e0b));
      background-image: linear-gradient(to right, transparent, #e879f9, #f59e0b);
 }
 #Testimonials span.display-4{
   font-weight: 900;
 }
+#testimonialCarousel .carousel-indicators {
+  bottom: -80px; }
 
+
+#testimonialCarousel .carousel-indicators button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%; 
+
+}
+
+#testimonialCarousel .carousel-indicators .active {
+
+
+  background-color: white; 
+}
 /* end Testimonials */
 /* 
 @media (min-width: 768px) {  } */
@@ -589,8 +598,8 @@ header .nav-item:hover header .nav-link{
 @media (min-width: 992px) {
    header .nav-link::before {
 content: "";
-    background: -webkit-gradient(linear, left top, right top, from(rgb(124, 58, 237)), to(rgb(139, 92, 246)));
     background: -o-linear-gradient(left, rgb(124, 58, 237), rgb(139, 92, 246));
+    background: -webkit-gradient(linear, left top, right top, from(rgb(124, 58, 237)), to(rgb(139, 92, 246)));
     background: linear-gradient(90deg, rgb(124, 58, 237), rgb(139, 92, 246));
     width: 0px;
     height: 2px;
@@ -653,7 +662,6 @@ width: 75rem;
 }
 
 @media (min-width: 1400px) {  }
-
 
 
 
