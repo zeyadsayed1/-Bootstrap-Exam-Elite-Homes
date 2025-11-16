@@ -647,7 +647,7 @@ z-index: -1;
   height: 4rem;  -webkit-transition: -webkit-transform 0.3s ease;  transition: -webkit-transform 0.3s ease;  -o-transition: transform 0.3s ease;  transition: transform 0.3s ease;  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
 }
 #Contact .row .card {
-  border: 2px solid oklch(96.7% .003 264.542) !important ;
+  border: 2px solid rgb(243, 244, 246) !important ;
   -webkit-transition: border-color 0.3s ease ,   -webkit-transform 0.3s ease;
   transition: border-color 0.3s ease ,   -webkit-transform 0.3s ease;
   -o-transition: transform 0.3s ease ,   border-color 0.3s ease;
@@ -720,10 +720,8 @@ background: linear-gradient(134deg, rgba(167, 59, 255, 1) 100%, rgba(155, 29, 25
 }
 #Contact .col-xl-8{
   padding: 2.5rem !important;
-  border:2px solid  oklch(96.7% .003 264.542);;
+  border:2px solid  rgb(243, 244, 246);;
 }
-
-
 #Contact .form-select.my-form-control,#Contact textarea,
 #Contact .form-control {
    
